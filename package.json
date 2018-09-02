@@ -1,0 +1,26 @@
+{
+  "name": "rinse-react",
+  "version": "1.0.0",
+  "description": "Rinse, React, repeat. A React component library boilerplate.",
+  "main": "dist/rinse.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cwlsn/rinse-react.git"
+  },
+  "keywords": [
+    "boilerplate",
+    "react",
+    "shared",
+    "components",
+    "components"
+  ],
+  "author": "Connor Wilson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cwlsn/rinse-react/issues"
+  },
+  "homepage": "https://github.com/cwlsn/rinse-react#readme"
+}
