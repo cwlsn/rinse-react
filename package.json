@@ -5,7 +5,8 @@
   "main": "dist/rinse.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack  --mode=production"
+    "build": "webpack  --mode=production",
+    "storybook": "start-storybook -p 9001"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,8 @@
     "@babel/core": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
+    "@storybook/addon-actions": "^4.0.0-alpha.20",
+    "@storybook/react": "^4.0.0-alpha.20",
     "@tulipjs/eslint-config": "^1.1.1",
     "babel-loader": "^8.0.1",
     "css-loader": "^1.0.0",
@@ -40,6 +43,7 @@
   },
   "dependencies": {
     "react": "^16.4.2",
+    "react-dom": "^16.4.2",
     "styled-components": "^3.4.5"
   }
 }
