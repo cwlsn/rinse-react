@@ -4,7 +4,7 @@
 
 > Rinse, React, repeat. A boilerplate to build a React component library.
 
-#### To learn how this project was made from scratch, [read the blog post](url)!
+#### To learn how this project was made from scratch, [read the blog post](https://medium.com/@cwlsn/how-to-write-your-own-reusable-react-component-library-a57dc7c9a210)!
 
 ## Get Started
 
