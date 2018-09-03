@@ -4,7 +4,7 @@
 
 > Rinse, React, repeat. A boilerplate to build a React component library.
 
-###### To learn how this project was made from scratch, [read the blog post](url)!
+#### To learn how this project was made from scratch, [read the blog post](url)!
 
 ## Get Started
 
@@ -16,3 +16,18 @@ $ cd cool-name
 $ rm -rf .git
 $ git init
 ```
+
+## Development and Storybook
+
+You can easily develop and interact with your components by using Storybook. To run the local server, simply run:
+
+```bash
+$ npm i
+$ npm run storybook
+```
+
+Navigate to [http://localhost:9001](http://localhost:9001) to view your stories. They should automatically update as you develop.
+
+Storybook will pick up any story from the `stories.js` file in a component folder. 
+
+Rinse is currently using the latest technology available, so you may need to update your Node versions to latest to accomodate Babel 7 and Webpack 4.
