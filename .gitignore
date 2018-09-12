@@ -4,3 +4,5 @@ node_modules
 temp
 .eslintcache
 dist
+.docz
+*.psd
