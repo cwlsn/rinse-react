@@ -1,5 +1,7 @@
 ---
 name: Button
+menu: Components
+route: /components/Button
 ---
 
 import Button from './';
@@ -9,9 +11,10 @@ import { Playground, PropsTable } from 'docz';
 
 This component renders an HTML `<button>` and passes along all props.
 
+<PropsTable of={Button} />
+
 ## Example Usage
 
 <Playground>
 	<Button>Get me!</Button>
-	<Button name="sweet_button" value="Hello Button!" />
 </Playground>
