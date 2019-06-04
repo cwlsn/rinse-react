@@ -36,7 +36,8 @@
     "@tulipjs/eslint-config": "^1.1.1",
     "babel-loader": "^8.0.1",
     "css-loader": "^1.0.0",
-    "docz": "^0.12.5",
+    "docz": "^1.2.0",
+    "docz-theme-default": "^1.2.0",
     "node-sass": "^4.9.3",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.0",
@@ -45,8 +46,8 @@
     "webpack-cli": "^3.1.0"
   },
   "dependencies": {
-    "react": "^16.4.2",
-    "react-dom": "^16.4.2",
-    "styled-components": "^3.4.5"
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.2.1"
   }
 }
