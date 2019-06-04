@@ -1,11 +1,11 @@
 {
   "name": "rinse-react",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "description": "Rinse, React, repeat. A React component library boilerplate.",
   "main": "dist/rinse.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack  --mode=production",
+    "build": "webpack --mode production",
     "storybook": "start-storybook -p 9001",
     "docz:dev": "docz dev",
     "docz:build": "docz build"
@@ -28,8 +28,8 @@
   },
   "homepage": "https://github.com/cwlsn/rinse-react#readme",
   "devDependencies": {
-    "@babel/core": "^7.0.0",
-    "@babel/preset-env": "^7.0.0",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
     "@babel/preset-react": "^7.0.0",
     "@storybook/addon-actions": "^4.0.0-alpha.20",
     "@storybook/react": "^4.0.0-alpha.20",
@@ -40,10 +40,10 @@
     "docz-theme-default": "^1.2.0",
     "node-sass": "^4.9.3",
     "sass-loader": "^7.1.0",
-    "style-loader": "^0.23.0",
-    "url-loader": "^1.1.1",
-    "webpack": "^4.17.1",
-    "webpack-cli": "^3.1.0"
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.2.0"
   },
   "dependencies": {
     "react": "^16.8.6",
