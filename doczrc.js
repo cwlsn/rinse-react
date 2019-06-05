@@ -40,7 +40,7 @@ const config = {
 				fontFamily: "'Kadwa'",
 			},
 			logo: {
-				background: 'red',
+				background: 'transparent',
 				alignItems: 'center',
 			},
 		},
