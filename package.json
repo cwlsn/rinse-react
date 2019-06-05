@@ -1,6 +1,6 @@
 {
   "name": "rinse-react",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Rinse, React, repeat. A React component library boilerplate.",
   "main": "dist/rinse.js",
   "scripts": {
