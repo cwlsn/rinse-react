@@ -11,7 +11,7 @@ import Button from './Button';
 //
 // .add() takes a name and then a function that should return what you want
 // rendered in the rendering area
-storiesOf('Button')
+storiesOf('Button', module)
 	.add('with text', () => (
 		<Button onClick={action('clicked')}>Hello Button</Button>
 	))
