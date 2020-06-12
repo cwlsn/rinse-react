@@ -7,6 +7,11 @@ module.exports = {
 	// This is where our app starts. This is why we have done all this importing
 	// and exporting, to get to here
 	entry: './src/index.js',
+	// Exclude peer dependencies
+	externals: {
+		react: 'react',
+		reactDOM: 'react-dom'
+	},
 	// module (I know it's a bit weird to have module.exports.module) is where we
 	// define all the rules for how webpack will deal with thing.
 	module: {
