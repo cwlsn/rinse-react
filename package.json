@@ -7,9 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production",
     "storybook": "start-storybook -p 6006",
+    "storybook:build": "build-storybook",
     "docz:dev": "docz dev",
-    "docz:build": "docz build",
-    "build-storybook": "build-storybook"
+    "docz:build": "docz build"
   },
   "repository": {
     "type": "git",
