@@ -32,7 +32,7 @@
     "@babel/preset-env": "^7.2.3",
     "@babel/preset-react": "^7.0.0",
     "@storybook/addon-actions": "^4.0.0-alpha.20",
-    "@storybook/react": "^4.1.18",
+    "@storybook/react": "^6.5.15",
     "@tulipjs/eslint-config": "^1.1.1",
     "babel-loader": "^8.0.1",
     "css-loader": "^1.0.0",
